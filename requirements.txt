@@ -2,3 +2,4 @@ streamlit
 -U langchain-openai
 langchain
 openai
+ChatOpenAI
