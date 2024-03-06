@@ -1,4 +1,4 @@
 openai
 langchain
 streamlit
-U-langchain-openai
+langchain-openai
