@@ -9,7 +9,8 @@ from langchain.schema import (
     HumanMessage,
     AIMessage
 )
-from langchain.callbacks import get_openai_callback
+# from langchain.callbacks import get_openai_callback
+from langchain_community.callbacks import get_openai_callback
 
 
 def init_page():
