@@ -1,6 +1,6 @@
 import os
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 import streamlit as st
 from langchain_openai import ChatOpenAI
