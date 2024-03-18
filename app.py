@@ -34,7 +34,7 @@ def init_messages():
 def select_model():
     model = st.sidebar.radio("Choose a model:", ("GPT-3.5", "GPT-4"))
     if model == "GPT-3.5":
-        model_name = "gpt-3.5-turbo"
+        model_name = "gpt-3.5-turbo-0613"
     else:
         model_name = "gpt-4"
 
