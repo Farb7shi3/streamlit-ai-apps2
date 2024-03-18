@@ -10,9 +10,6 @@ from langchain.schema import (
 from langchain_community.callbacks import get_openai_callback
 
 
-import os
-os.environ["OPENAI_API_KEY"] = "openai_api_key"
-
 def init_page():
     st.set_page_config(
         page_title="My Great ChatGPT",
